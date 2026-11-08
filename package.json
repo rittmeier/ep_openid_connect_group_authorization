@@ -1,0 +1,29 @@
+{
+  "name": "ep_openid_connect_group_authorization",
+  "version": "0.1.0",
+  "description": "Group-based authorization for Etherpad using ep_openid_connect",
+  "license": "GPL-3.0-or-later",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rittmeier/ep_openid_connect_group_authorization.git"
+  },
+  "homepage": "https://github.com/rittmeier/ep_openid_connect_group_authorization#readme",
+  "bugs": {
+    "url": "https://github.com/rittmeier/ep_openid_connect_group_authorization/issues"
+  },
+  "keywords": [
+    "etherpad",
+    "etherpad-plugin",
+    "openid-connect",
+    "oidc",
+    "authorization",
+    "groups"
+  ],
+  "scripts": {
+    "test": "node --test"
+  }
+}

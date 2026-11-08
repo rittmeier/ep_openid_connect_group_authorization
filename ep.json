@@ -1,0 +1,13 @@
+{
+  "parts": [
+    {
+      "name": "main",
+      "post": ["ep_openid_connect/main"],
+      "hooks": {
+        "loadSettings": "",
+        "preAuthorize": "",
+        "authorize": ""
+      }
+    }
+  ]
+}
